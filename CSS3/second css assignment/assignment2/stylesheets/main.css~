@@ -1,0 +1,26 @@
+.container{
+	width: 50%;
+	margin: 0 auto;
+}
+.heading{
+	background-color: #dddddd;
+	border-radius: 5px;
+}
+.error{
+	color: red;
+}
+.inner-container{
+	margin: 0 auto;
+	display: inline-block;
+}
+div{
+	margin-bottom: 40px;
+	width: 70%;	
+}
+label{
+	float: left;
+}
+input{
+ 	float: right;
+	margin-bottom: 40px;
+}

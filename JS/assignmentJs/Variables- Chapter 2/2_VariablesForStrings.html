@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Variables for strings</title>
+</head>
+<body>
+	<div id="q1">
+		<h1>Question 1</h1>
+		<button onclick="q1()">Press this for username</button>
+	</div>
+	<div id="q2">
+		<h1>Question 2</h1>
+		<button onclick="q2()">Press this for myName</button>
+	</div>
+	<div id="q3">
+		<h1>Question 3</h1>
+		<button onclick="q3()">Press this for a message</button>
+	</div>
+	<div id="q4">
+		<h1>Question 4</h1>
+		<button onclick="q4()">Press this for a BioData</button>
+	</div>
+</body>
+<script type="text/javascript">
+	/*Question 1*/
+	function q1(){ 
+	var username = prompt("What is your name");
+	alert(username);
+	}
+	
+	/*Question 2*/
+	function q2(){
+	var myName = "Ahmed Baig";
+	alert(myName);
+	}
+	
+	/*Question 3*/
+	function q3(){
+	var message = prompt("Enter a message");
+	alert(messgase);
+	}
+
+	/*Question 4*/
+	function q4(){
+		var name, age, university, module;
+		name = prompt("What is your name");
+		age = prompt("What is your age");
+		university = prompt("Which university do you attend");
+		module = prompt("What module do you go to");
+		alert("Name:"+name+"\nAge:"+age+"\nUniversity:"+university+"\nModule:"+module);
+	}
+</script>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<form>
+		<div>
+			<table>
+				<tr>
+					<td>
+						<label>Username:</label>
+					</td>
+					<td>
+						<input type="text" name="username" maxlength="30" size="15">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Password:</label>
+					</td>
+					<td>
+						<input type="password" name="password" maxlength="30" size="15" required="required">
+					</td>				
+				</tr>
+				<tr>
+					<td>
+						<label>Date of Birth:</label>
+					</td>
+					<td>
+						<input type="date" name="date" size="15">
+					</td>				
+				</tr>
+				<tr>
+					<td>
+						<label>Web URL:</label>
+					</td>
+					<td>
+						<input type="url" name="url" size="15">
+					</td>				
+				</tr>
+				<tr>
+					<td>
+						<label>Address:</label>
+					</td>
+					<td>
+						<input type="text" name="address" maxlength="30" size="15">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>City:</label>
+					</td>
+				</tr>		
+				<tr>
+					<td>
+						<select>
+							<option name="city" value="karachi" size="15">Karachi</option>
+							<option name="city" value="lahore" size="15">Lahore</option>
+							<option name="city" value="islamabad" size="15">Islamabad</option>
+						</select>
+					</td>
+				</tr>	
+				<tr>
+					<td>
+						<label>Magazine:</label>
+					</td>
+				</tr>
+					<td>
+						<select>
+							<option name="magazine" value="newsweek" size="15" multiple="multiple">Newsweek</option>
+							<option name="magazine" value="time" size="15" multiple="multiple">Time</option>
+							<option name="magazine" value="fortune" size="15" multiple="multiple">Fortune</option>
+							<option name="magazine" value="tvguide" size="15" multiple="multiple">TV Guide</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div>
+			<fieldset>
+				<legend>Contact details</legend>
+				<label>Email:</label><br>
+				<input type="email" name="email" size="15"><br>
+				<label>Mobile:</label><br>
+				<input type="tel" name="mobile" size="15"><br>
+				<label>Telephone:</label><br>
+				<input type="tel" name="telephone" size="15"><br>
+			</fieldset>
+		</div>
+		<div>
+			<label>Additional Commnents:</label><br>
+			<textarea name="comments" placeholder="Enter your comment" col="4" row="3"></textarea>
+		</div>
+		<label>Upload your picture:</label>
+		<input type="file" name="picture">
+		<input type="s">
+	</form>
+</html>

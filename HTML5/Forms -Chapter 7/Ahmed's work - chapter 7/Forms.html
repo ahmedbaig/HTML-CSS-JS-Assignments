@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<form  method="post">
+
+		<p>Username:
+		<input type="text" name="username" maxlength="20" size="15">
+		Password:
+		<input type="password" name="password" maxlength="20" size="15" value="pass">
+		</p>
+
+		<p>Enter your Comments</p>
+		<textarea name="comment" maxlength="20" size="15">Enter Comment....</textarea>
+
+
+		<p>Gender:
+		<input type="radio" name="gender" value="Male" checked="checked"/>Male
+		<input type="radio" name="gender" value="Female" />Female
+		<input type="radio" name="gender" value="Others" />Others
+		</p>
+
+		<p>
+		<input type="checkbox" name="services" value="itunes" checked="checked"/>Itunes
+		<input type="checkbox" name="services" value="last.fm" />Last.fm
+		<input type="checkbox" name="services" value="spotify" />Spotify
+		<p>		
+
+		<select>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+		</select>
+
+			<select name="instruments" size="3" multiple="multiple">
+				<option value="guitar" selected="selected">Guitar</option>
+				<option value="drums">Drums</option>
+				<option value="keyboard"selected="selected">Keyboard</option>
+				<option value="bass">Bass</option>
+			</select>
+		</p>
+
+		<p>Upload your song</p>
+		<input type="file" value="upload picture">
+		<p>Click this image button to upload picture<br>
+		<input type="image" src="Untitled.png" width="100" height="20" value="upload">
+		</p>
+
+		<p>hidden and buttons
+			<button><img src="Untitled.png" alt="add" width="10" height="10" /> Add</button>
+			<input type="hidden" name="bookmark" value="lyrics" />
+		</p>
+
+		<p>Click this image button to upload<br>
+		<input type="submit" name="submit" value="Upload"/>
+		</p>
+
+		<p>labels</p>
+		<label>Username:</label>		
+		<input type="text" name="username" maxlength="20" size="15"></br>
+
+		<label>Gender:</label>
+		<input type="checkbox" name="services" value="itunes" checked="checked"/>Itunes 
+		<input type="checkbox" name="services" value="last.fm" />Last.fm
+		<input type="checkbox" name="services" value="spotify" />Spotify
+	</form>	
+
+	<form>
+		<fieldset>	
+		<legend>Login panel</legend>	
+
+		<label for="search">Search:</label>
+		<input type="search" name="search" /></br></br>
+
+		<label for="username">Username:</label>		
+		<input type="text" name="username" maxlength="20" size="15" required="required"></br>	</br>	
+
+		<label for="password">Password:</label>
+		<input type="password" name="password" maxlength="20" size="15" required="required"></br></br>
+
+		<label for="username">Date:</label>
+		<input type="date" name="date" maxlength="20" size="15"/></br></br>
+
+		<label for="email">Enter Email:</label>		
+		<input type="email" name="email" maxlength="20" size="15"/></br></br>
+
+		<label for="url">Enter URL:</label>		
+		<input type="url" name="url"  size="15"/></br></br>
+
+		<input type="submit" value="Submit" maxlength="20" size="15" /></br></br>
+		</fieldset>
+	</form>
+</html>

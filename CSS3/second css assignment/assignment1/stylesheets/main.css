@@ -1,0 +1,18 @@
+body{
+    font-family: 'Yatra One', cursive;
+}
+h1, h2{
+    background-color: darkcyan;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+dt{
+    color: cornflowerblue;
+}
+span{
+    font-weight: thick;
+}
+em{
+    color: red;
+}

@@ -1,0 +1,56 @@
+		hr{
+			width: 60%;
+			float: center;
+			border-top: 10px;
+		}
+
+		h2{
+			font-family: 'Lobster Two', cursive;
+		}
+
+		p{
+			font-family: 'Bad Script', cursive;
+			font-weight: 580;
+		}
+
+		ul{
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		    overflow: hidden;
+		}
+
+		li {
+			float: left; 
+		    padding: 1px;
+
+		}
+
+		li a{
+		    display: block;
+		    color: white;
+		    text-align: center;
+		    padding: 14px 16px;
+		    text-decoration: none;
+		    background-color: #333;
+		    border-radius: 10px;
+		    transition: border-radius 0.5s ease;
+		}
+
+		li a:hover {
+		    background-color: #111;
+		    border-radius: 20px
+		}
+
+		#fb{
+			padding: 14px;
+			background-color: #333;
+			border-radius: 10px;
+			color: white;
+			text-decoration: none;
+		    transition: border-radius 0.5s ease;
+		}
+
+		#fb:hover{
+			border-radius: 20px
+		}

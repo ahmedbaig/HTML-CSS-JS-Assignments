@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        /*for table hidden*/
+            td {
+              border: 1px solid #0088dd;
+              padding: 15px;}
+            table.one {
+              empty-cells: show;}
+            table.two {
+              empty-cells: hide;}
+            table.one, table.two{
+                border-spacing: 20px;
+            }
+            table.three{
+                border-collapse: collapse;
+            }
+            table.four{
+                border-collapse: separate;
+            }
+
+        /*for table*/
+            body {
+              font-family: Arial, Verdana, sans-serif;
+              color: #111111;}
+
+            table,h1 {
+              width: 600px;
+              margin: 10px auto;
+            }
+            h1{
+                text-align: center;
+            }
+
+            th, td {
+              padding: 7px 10px 10px 10px;
+                }
+            th {
+              text-transform: uppercase;
+              letter-spacing: 0.1em;
+              font-size: 90%;
+              border-bottom: 2px solid #111111;
+              border-top: 1px solid #999;
+              text-align: center;}
+
+            tr.even {
+              background-color: #efefef;}
+
+            tr:hover {
+              background-color: #c3e6e5;}
+
+            .money {
+              text-align: right;}
+            tr:nth-child(even){
+                background-color: pink;
+            }
+
+        /*for body*/
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            div{
+                margin: 10px;
+                border: 2px solid #dddddd;
+                height: 610px;
+            }
+            ul.nav{
+                padding: 20px;
+                width: 300px;
+                text-align: center;
+                margin: auto auto;
+            }
+            .nav>li{
+                color: grey;
+                display: inline;
+                padding-right: 3px;
+                padding: 5px;
+                text-decoration: none;
+                list-style-type: none;
+                border-radius: 5px;
+                border: 3px solid #dddddd;
+                text-align: center;
+            }
+            p{
+                border: 2px 5px 10px 20px;
+                border-style: solid;
+                border-color: #dddddd;
+                width: 300px;
+                height: 50px;
+                padding: 20px;
+                text-align: center;
+            }
+            p.example{
+                margin: 10px auto;
+                text-align: left;
+
+
+                border: 3px dashed #dddddd;
+                box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+            
+            }
+            li{
+                display: inline-block;
+            }
+            li.none{
+                list-style: none;
+            }
+            li.bullet{
+
+            }
+            li.square{
+                list-style: square;
+            }
+            li.circle{
+                list-style: circle;
+            }
+            li.la{
+                list-style: lower-alpha;
+            }
+            li.ua{
+                list-style: upper-alpha;
+            }
+            li.lr{
+                list-style: lower-roman;
+            }
+            li.ur{
+                list-style: upper-roman;
+            }
+            li.decimal{
+                list-style: decimal-leading-zero;
+            }
+            li.outside{
+                list-style-position: outside;
+            }
+            li.inside{
+                list-style-position: inside;
+            }
+            li.inside-circle{
+                list-style: inside square;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="mainDiv">
+            <ul class="nav">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Methods</li>
+            </ul>
+            <p class="example">
+                This is some sample text. Which should be centered.
+            </p>
+
+            <p class="banana">
+                This is some sample text. Which should not be centered.
+            </p>
+
+            <ul class="lists">
+                <li class="none">This is none</li>
+                <li class="bullet">This is bullet</li>
+                <li class="square">This is square</li>
+                <li class="circle">This is circle</li>
+                <li class="la">This is lower alpha</li>
+                <li class="ua">This is upper alpha</li>
+                <li class="lr">This is lower roman</li>
+                <li class="ur">This is upper roman</li>
+                <li class="decimal">This is decimal</li>
+                <li class="outside">This is marker-outside</li>
+                <li class="inside">This is marker-inside</li>
+                <li class="inside-circle">This is a shorthand inside circle</li>
+            </ul>
+        </div>
+        <div>
+            <h1>First Edition Auctions</h1>
+            <table>
+              <tr>
+               <th>Author</th>
+               <th>Title</th>
+               <th class="money">Reserve Price</th>
+               <th class="money">Current Bid</th>
+              </tr>
+              <tr>
+               <td>E.E. Cummings</td>
+               <td>Tulips & Chimneys</td>
+               <td class="money">$2,000.00</td>
+               <td class="money">$2,642.50</td>
+              </tr>
+              <tr class="even">
+               <td>Charles d'Orleans</td>
+               <td>Poemes</td>
+               <td class="money"></td>
+               <td class="money">$5,866.00</td>
+              </tr>
+              <tr>
+               <td>T.S. Eliot</td>
+               <td>Poems 1909 - 1925</td>
+               <td class="money">$1,250.00</td>
+               <td class="money">$8,499.35</td>
+              </tr>
+              <tr class="even">
+               <td>Sylvia Plath</td>
+               <td>The Colossus</td>
+               <td class="money"></td>
+               <td class="money">$1031.72</td>
+              </tr>
+            </table>
+        </div>
+        <div>
+            <table class="one">
+              <tr>
+               <td>1</td>
+               <td>2</td>
+              </tr>
+              <tr>
+               <td>3</td>
+               <td></td>
+              </tr>
+            </table>
+            <table class="two">
+              <tr>
+               <td>1</td>
+               <td>2</td>
+              </tr>
+              <tr>
+               <td>3</td>
+               <td></td>
+              </tr>
+            </table>
+            <table class="three">
+              <tr>
+               <td>1</td>
+               <td>2</td>
+              </tr>
+              <tr>
+               <td>3</td>
+               <td></td>
+              </tr>
+            </table>
+            <table class="four">
+              <tr>
+               <td>1</td>
+               <td>2</td>
+              </tr>
+              <tr>
+               <td>3</td>
+               <td></td>
+              </tr>
+            </table>
+        </div>
+    </body>
+</html>

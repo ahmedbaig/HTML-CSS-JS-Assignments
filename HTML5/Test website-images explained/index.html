@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chapter 5-Images</title>
+
+		<link href='https://fonts.googleapis.com/css?family=Lobster+Two:700italic|Bad+Script' rel='stylesheet' type='text/css'>
+
+		<!--Just a little styling-->
+
+		<style type="text/css">
+			body{
+				margin-left: 20px;
+			}
+			div.images{ 
+				border: 1px solid black;
+				border-radius: 5px;
+				margin:5px 350px;
+			}
+
+			h2{
+				font-family: 'Lobster Two', cursive;
+				font-size: 30px;
+			}
+
+			p, ol{
+				font-family: 'Bad Script', cursive;
+				font-size: 24px;
+				margin: 0;
+			}
+		</style>
+
+
+	</head>
+	<body>
+		<!--This work is mostly done in div's which means divisions-->
+		
+		<div class="images">
+			<img src="images/HTML5_1.png" alt="Black HTML5 logo" title="HTML5" height="200">
+			<img src="images/css3.png" alt="css3 logo" title="CSS3" height="200">
+			<img src="images/js.png" alt="JavaScript logo" title="JAVAScrpit" height="200">
+		</div>
+		<div>
+			<h2>Images In HTML:</h2>
+			<p>Images used in a site should always be relevant. Never pick an image which is not relevant and acts as a waste on your website.</p>
+
+			<p>An image used on your website should always match the color scheme of your website. Nothing looks more horrible than mixed colors. </p>
+
+			<p>If you cant decide where to find relevant images and google is not accurate enough for than you can use different other webise.<br>
+				<sub>fair warning: things on some websites will not be free. Best if you steal images from code or google it.</sub></p>
+
+			<p>Images are added on website by the &ltimg&gt tag.<br>
+				In this &ltimg&gt tag there are some attributes that are much necessary. These are:
+				<ol>
+					<li>&ltsrc=" "&gt</li>
+						<ul>
+							<li>This is used as the location finder for your image-better known as source. Whether they are online someplace or offline on your computer.</li>
+							<li>Online images are added by using the full address of the image. Example:<br>
+								<code>&ltimg src="https://www.seeklogo.net/wp-content/uploads/2013/11/facebook-flat-vector-logo-400x400.png"&gt</code></li>
+							<li>Offline images are added the same way links are added to seperate pages in website. Example:<br>
+								<code>&ltimg src="images/fb_logo.png"&gt</code></li>
+						</ul>
+					<li>&ltalt=" "&gt</li>
+						<ul>
+							<li>This attribute is used to add an alternative text if the image fails to load or is missing from the location described.</li>
+						</ul>
+					<li>&ltwidth=" "&gt</li>
+						<ul>
+							<li>This is used if you want to size the width of your image but don't want to use css or photoshop.</li>
+						</ul>
+					<li>&ltheight=" "&gt</li>
+						<ul>
+							<li>This is used if you want to size the height of your image but don't want to use css or photoshop.</li>
+						</ul>
+				</ol>
+			</p>
+			<h2>Rules:</h2>
+		</div>
+	</body>
+</html>
